@@ -13,9 +13,9 @@ Aplikasi Web Sistem Absensi Sekolah Berbasis QR Code adalah sebuah proyek yang b
 ## Fitur Utama
 
 - **QR Code scanner.** Setiap siswa/guru menunjukkan qr code kepada perangkat yang dilengkapi dengan kamera. Aplikasi akan memvalidasi QR code dan mencatat kehadiran siswa ke dalam database.
-- **Login petugas.**
-- **Dashboard petugas.** Petugas sekolah dapat dengan mudah memantau kehadiran siswa dalam periode waktu tertentu melalui tampilan yang disediakan.
-- **QR Code generator.** Petugas yang sudah login akan men-generate qr code setiap siswa/guru secara otomatis. Setiap siswa akan diberikan QR code unik yang terkait dengan identitas siswa. QR code ini akan digunakan saat proses absensi.
+- **Login User.(Superadmin,Petugas,Guru,Kepala Sekolah,Siswa)**
+- **Dashboard user.** Petugas sekolah dapat dengan mudah memantau kehadiran siswa dalam periode waktu tertentu melalui tampilan yang disediakan.
+- **QR Code generator.** Petugas dan Admin yang sudah login akan men-generate qr code setiap siswa/guru secara otomatis. Setiap siswa akan diberikan QR code unik yang terkait dengan identitas siswa. QR code ini akan digunakan saat proses absensi.
 - **Ubah data absen siswa/guru.** Petugas dapat mengubah data absensi setiap siswa/guru. Misalnya mengubah data kehadiran dari `tanpa keterangan` menjadi `sakit` atau `izin`.
 - **Tambah, Ubah, Hapus(CRUD) data siswa/guru.**
 - **Tambah, Ubah, Hapus(CRUD) data kelas.**
@@ -150,6 +150,18 @@ ubah value menjadi `null`:
 ```
 username : superadmin
 password : 1234ikh123
+
+username : guru
+password : 1234ikh123
+
+username : siswa
+password : 1234ikh123
+
+username : kepsek
+password : 1234ikh123
+
+username : petugas
+password : 1234ikh123
 ```
 
 - Izinkan akses kamera.
@@ -158,21 +170,6 @@ password : 1234ikh123
 
 Dengan aplikasi web sistem absensi sekolah berbasis QR code ini, diharapkan proses absensi di sekolah menjadi lebih efisien dan terotomatisasi. Proyek ini dapat diadaptasi dan dikembangkan lebih lanjut sesuai dengan kebutuhan dan persyaratan sekolah Anda.
 
-Jangan lupa beri star ya...⭐
-
-## Contributing
-
-Kami menerima kontribusi dari komunitas terbuka untuk meningkatkan aplikasi ini. Jika Anda menemukan masalah, bug, atau memiliki saran untuk peningkatan, silakan buat issue baru dalam repositori ini atau ajukan pull request.
-
-## Donasi
-
-[![Donate paypal](https://img.shields.io/badge/Donate-PayPal-green.svg?style=for-the-badge)](https://paypal.me/xannxett?country.x=ID&locale.x=en_US)
-[![Donate saweria](https://img.shields.io/badge/Donate-Saweria-red?style=for-the-badge&link=https%3A%2F%2Fsaweria.co%2Fxiboxann)](https://saweria.co/xiboxann)
-
-## Lisensi
-
-[![GitHub license](https://img.shields.io/github/license/ikhsan3adi/absensi-sekolah-qr-code?style=for-the-badge)](https://github.com/ikhsan3adi/absensi-sekolah-qr-code/raw/master/LICENSE)
-
 ## Authors
 
-- [@ikhsan3adi](https://www.github.com/ikhsan3adi)
+- [@TatanDarusalam](https://www.github.com/TatanDarusalam)
